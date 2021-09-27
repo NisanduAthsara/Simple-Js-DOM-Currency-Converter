@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Currency Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8"> 
+</head>
+<body>
+	<div class="container">
+		<h1 class="h1">Simple Currency Calculator</h1>
+		<form id="form">
+			<div class="select">
+				<select id="from_rate">
+					<option value="USD">USD</option>
+					<option value="euro">Euro</option>
+					<option value="lkr">LKR</option>
+				</select>
+				<div class="to">To</div>
+				<select id="to_rate">
+					<option value="USD">USD</option>
+					<option value="euro">Euro</option>
+					<option value="lkr">LKR</option>
+				</select>
+			</div>
+			<input type="number" id="value" placeholder="Value">
+			<button class="submit-btn">Calculate</button>
+			<button class="reset-btn">Reset</button>
+		</form>
+
+		<div class="values">Calculated Currency rate : </div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
